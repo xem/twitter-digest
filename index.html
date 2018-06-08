@@ -1,0 +1,36 @@
+﻿<body id=b>
+<input id="month" size=6 value="2018_01"><button id="go">GO</button>
+<div id="tweets"></div>
+<style>
+p { background: #f3f3f3; border: 1px solid #ddd; padding: 10px; width: 800px; }
+img { max-height: 100px; max-width: 100px; margin: 5px 10px 5px 0; border: 1px solid #555; }
+</style>
+<script>
+
+go.onclick = function(){
+
+  Grailbird = { data: {} };
+  xhr = new XMLHttpRequest;
+  xhr.open("GET", month.value + '.js', 1);
+  xhr.send();
+  
+  xhr.onload = function(){
+  
+    eval(xhr.response);
+    tweets.innerHTML = "";
+    html = "";
+    for(i of Grailbird.data["tweets_" + month.value]){
+    
+      html += "<p>" + i.text.replace(/https?:\/\/t\.co\/........../g, "<a href='$&'>link</a>") + "<br>";
+      for(j = 0; j < 4; j++){
+        if(i.entities && i.entities.media && i.entities.media[j] && i.entities.media[j].media_url){
+          html += "<img src='" + i.entities.media[j].media_url + "'>";
+        }
+      }
+    }
+    
+    tweets.innerHTML = html;
+  }
+}
+
+</script>
