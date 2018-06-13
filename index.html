@@ -5,12 +5,68 @@ A light UI for your twitter archive
 <br><br>
 <input id="month" size=6 value="2018_01"><button id="go">GO</button>
 <div id="tweets"></div>
+<div id="digest">
+
+<h2>DIGEST</h2>
+
+<h3>COOL SITES</h3>
+<ul id="digest_sites">
+</ul>
+
+<h3>HTML</h3>
+<ul id="digest_html">
+</ul>
+
+<h3>CSS</h3>
+<ul id="digest_css">
+</ul>
+
+<h3>JS</h3>
+<ul id="digest_js">
+</ul>
+
+<h3>WEB DEV</h3>
+<ul id="digest_webdev">
+</ul>
+
+<h3>ART</h3>
+<ul id="digest_art">
+</ul>
+
+<h3>GEEK</h3>
+<ul id="digest_geek">
+</ul>
+
+<h3>CODEGOLF</h3>
+<ul id="digest_codegolf">
+</ul>
+
+<h3>GAMEDEV</h3>
+<ul id="digest_gamedev">
+</ul>
+
+<h3>FUN</h3>
+<ul id="digest_fun">
+</ul>
+
+<h3>QUOTES</h3>
+<ul id="digest_quotes">
+</ul>
+
+</div>
 <style>
 * { font-family: arial }
-p { background: #f3f3f3; border: 1px solid #ddd; padding: 10px; width: 800px; }
-img { max-height: 100px; max-width: 100px; margin: 5px 10px 5px 0; border: 1px solid #555; }
+p { background: #f3f3f3; border: 1px solid #ddd; padding: 10px; width: 800px; margin: 10px 0 0; }
+h6 { margin: 3px 0; padding: 0 }
+img { max-height: 100px; max-width: 200px; margin: 5px 10px 5px 0; border: 1px solid #555; }
+#digest { background: #f3f3f3; position: fixed; width: calc(100% - 1000px); height: calc(100% - 50px); top: 10px; left: 850px; border: 1px solid #ddd; padding: 10px; overflow: auto }
 </style>
 <script>
+onload = function(){
+  if(localStorage["twitterdigest"]){
+    digest.innerHTML = localStorage["twitterdigest"];
+  }
+}
 
 go.onclick = function(){
 
@@ -24,9 +80,43 @@ go.onclick = function(){
     eval(xhr.response);
     tweets.innerHTML = "";
     html = "";
-    for(i of Grailbird.data["tweets_" + month.value]){
+    for(index = Grailbird.data["tweets_" + month.value].length - 1; index > 0; index--){
     
-      html += "<p>" + i.text.replace(/https?:\/\/t\.co\/........../g, "<a href='$&'>link</a>") + "<br>";
+      i = Grailbird.data["tweets_" + month.value][index];
+    
+      url = 0;
+    
+      html += "<p>" + i.text.replace(/https?:\/\/t\.co\/........../g, function(a, b){
+        b = a;
+        if(i.entities && i.entities.urls && i.entities.urls[url]){
+          b = i.entities.urls[url].display_url;
+          url++;
+          return "<a href='" + a + "'>" + b + "</a>";
+        }
+        
+        return "";
+      })
+      
+      .replace(/\n+/g, "<br>")
+      
+      + "</p><h6>" + i.created_at.replace(/\+.*$/, "") + " - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_sites)'>SITE</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_html)'>HTML</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_css)'>CSS</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_js)'>JS</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_webdev)'>WEBDEV</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_art)'>ART</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_geek)'>GEEK</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_codegolf)'>CODEGOLF</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_gamedev)'>GAMEDEV</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_fun)'>FUN</a> - "
+      + "<a href=javascript:; onclick='add_item("+index+", digest_quotes)'>QUOTES</a>"
+      + "</h6>"
+      
+      
+      
+      + "<br>";
+      
       for(j = 0; j < 4; j++){
         if(i.entities && i.entities.media && i.entities.media[j] && i.entities.media[j].media_url){
           html += "<img src='" + i.entities.media[j].media_url + "'>";
@@ -36,6 +126,44 @@ go.onclick = function(){
     
     tweets.innerHTML = html;
   }
+}
+
+add_item = function(index, container){
+  
+  i = Grailbird.data["tweets_" + month.value][index];
+    
+  url = 0;
+
+  container.innerHTML += "<li>" 
+  + i.text
+  .replace(/https?:\/\/t\.co\/........../g, function(a, b){
+    b = a;
+    if(i.entities && i.entities.urls && i.entities.urls[url]){
+      b = i.entities.urls[url].display_url;
+      url++;
+      return "<a href='" + a + "'>" + b + "</a>";
+    }
+    
+    return "<a href='" + a + "'>" + link + "</a>";
+  })
+  .replace(/\n+/g, "<br>")
+  .replace(/RT @[^:]+: /, "");
+  
+  localStorage["twitterdigest"] = digest.innerHTML;
+
+}
+
+oncontextmenu = function(e){
+
+  console.log(e);
+  
+  if(e.target.tagName == "LI"){
+    if(confirm("delete?")){
+      e.target.remove();
+    }
+  }
+  e.preventDefault();
+  localStorage["twitterdigest"] = digest.innerHTML;
 }
 
 </script>
