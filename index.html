@@ -85,8 +85,10 @@ go.onclick = function(){
       i = Grailbird.data["tweets_" + month.value][index];
     
       url = 0;
+      
+      text = i.retweeted_status ? i.retweeted_status.text : i.text;
     
-      html += "<p>" + i.text.replace(/https?:\/\/t\.co\/........../g, function(a, b){
+      html += "<p>" + text.replace(/https?:\/\/t\.co\/........../g, function(a, b){
         b = a;
         if(i.entities && i.entities.urls && i.entities.urls[url]){
           b = i.entities.urls[url].display_url;
@@ -94,12 +96,20 @@ go.onclick = function(){
           return "<a href='" + a + "'>" + b + "</a>";
         }
         
-        return "";
+        return "<a href='" + a + "'>link</a> ";
       })
       
       .replace(/\n+/g, "<br>")
       
-      + "</p><h6>" + i.created_at.replace(/\+.*$/, "") + " - "
+      + "<br>";
+      
+      for(j = 0; j < 4; j++){
+        if(i.entities && i.entities.media && i.entities.media[j] && i.entities.media[j].media_url){
+          html += "<img src='" + i.entities.media[j].media_url + "'>";
+        }
+      }
+      
+      html = html + "</p><h6><a target='_blank' href='//twitter.com/" + i.user.screen_name + "/status/" + i.id_str + "'>" + i.created_at.replace(/\+.*$/, "") + "</a> - "
       + "<a href=javascript:; onclick='add_item("+index+", digest_sites)'>SITE</a> - "
       + "<a href=javascript:; onclick='add_item("+index+", digest_html)'>HTML</a> - "
       + "<a href=javascript:; onclick='add_item("+index+", digest_css)'>CSS</a> - "
@@ -112,16 +122,7 @@ go.onclick = function(){
       + "<a href=javascript:; onclick='add_item("+index+", digest_fun)'>FUN</a> - "
       + "<a href=javascript:; onclick='add_item("+index+", digest_quotes)'>QUOTES</a>"
       + "</h6>"
-      
-      
-      
-      + "<br>";
-      
-      for(j = 0; j < 4; j++){
-        if(i.entities && i.entities.media && i.entities.media[j] && i.entities.media[j].media_url){
-          html += "<img src='" + i.entities.media[j].media_url + "'>";
-        }
-      }
+            
     }
     
     tweets.innerHTML = html;
@@ -133,9 +134,11 @@ add_item = function(index, container){
   i = Grailbird.data["tweets_" + month.value][index];
     
   url = 0;
-
+  
+  text = i.retweeted_status ? i.retweeted_status.text : i.text;
+  
   container.innerHTML += "<li>" 
-  + i.text
+  + text
   .replace(/https?:\/\/t\.co\/........../g, function(a, b){
     b = a;
     if(i.entities && i.entities.urls && i.entities.urls[url]){
@@ -144,7 +147,7 @@ add_item = function(index, container){
       return "<a href='" + a + "'>" + b + "</a>";
     }
     
-    return "<a href='" + a + "'>" + link + "</a>";
+    return "<a href='" + a + "'>link</a> ";
   })
   .replace(/\n+/g, "<br>")
   .replace(/RT @[^:]+: /, "");
