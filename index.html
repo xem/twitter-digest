@@ -3,7 +3,7 @@
 <h2>Twitter-digest</h2>
 A light UI for your twitter archive
 <br><br>
-<input id="month" size=6 value="2018_01"><button id="go">GO</button>
+<input id="month" size=7 value="Dec .* 2018"><button id="go">GO</button>
 <div id="tweets"></div>
 <div id="digest">
 
@@ -11,18 +11,6 @@ A light UI for your twitter archive
 
 <h3>COOL SITES</h3>
 <ul id="digest_sites">
-</ul>
-
-<h3>HTML</h3>
-<ul id="digest_html">
-</ul>
-
-<h3>CSS</h3>
-<ul id="digest_css">
-</ul>
-
-<h3>JS</h3>
-<ul id="digest_js">
 </ul>
 
 <h3>WEB DEV</h3>
@@ -68,61 +56,66 @@ onload = function(){
   }
 }
 
+window.YTD = { tweet: [] };
+
 go.onclick = function(){
 
-  Grailbird = { data: {} };
   xhr = new XMLHttpRequest;
-  xhr.open("GET", month.value + '.js', 1);
+  xhr.open("GET", "tweet.js", 1);
   xhr.send();
   
   xhr.onload = function(){
   
+    //console.log(xhr.response);
     eval(xhr.response);
     tweets.innerHTML = "";
     html = "";
-    for(index = Grailbird.data["tweets_" + month.value].length - 1; index > 0; index--){
+    console.log(window.YTD.tweet.part0);
+    reg = new RegExp(month.value);
+    for(index = window.YTD.tweet.part0.length - 1; index > 0; index--){
     
-      i = Grailbird.data["tweets_" + month.value][index];
+      i = window.YTD.tweet.part0[index];
     
-      url = 0;
+      if(i.created_at.match(reg)){
       
-      text = i.retweeted_status ? i.retweeted_status.text : i.text;
-    
-      html += "<p>" + text.replace(/https?:\/\/t\.co\/........../g, function(a, b){
-        b = a;
-        if(i.entities && i.entities.urls && i.entities.urls[url]){
-          b = i.entities.urls[url].display_url;
-          url++;
-          return "<a href='" + a + "'>" + b + "</a>";
+        url = 0;
+        
+        text = i.retweeted_status ? i.retweeted_status.full_text : i.full_text;
+      
+        html += "<br><p>" + text.replace(/https?:\/\/t\.co\/........../g, function(a, b){
+          b = a;
+          if(i.entities && i.entities.urls && i.entities.urls[url]){
+            b = i.entities.urls[url].display_url;
+            url++;
+            return "<a href='" + a + "'>" + b + "</a>";
+          }
+          
+          return "<a href='" + a + "'>link</a> ";
+        })
+        
+        .replace(/\n+/g, "<br>")
+        
+        + "<br>";
+        
+        for(j = 0; j < 4; j++){
+          if(i.entities && i.entities.media && i.entities.media[j] && i.entities.media[j].media_url){
+            html += "<img src='" + i.entities.media[j].media_url + "'>";
+          }
         }
         
-        return "<a href='" + a + "'>link</a> ";
-      })
-      
-      .replace(/\n+/g, "<br>")
-      
-      + "<br>";
-      
-      for(j = 0; j < 4; j++){
-        if(i.entities && i.entities.media && i.entities.media[j] && i.entities.media[j].media_url){
-          html += "<img src='" + i.entities.media[j].media_url + "'>";
-        }
+        html = html + "</p><h6><a target='_blank' href='//twitter.com/maximeeuziere/status/" + i.id_str + "'>" + i.created_at.replace(/\+.*$/, "") + "</a> - "
+        + "<a href=javascript:; onclick='add_item("+index+", digest_sites)'>SITE</a> - "
+        + "<a href=javascript:; onclick='add_item("+index+", digest_webdev)'>WEBDEV</a> - "
+        + "<a href=javascript:; onclick='add_item("+index+", digest_art)'>ART</a> - "
+        + "<a href=javascript:; onclick='add_item("+index+", digest_geek)'>GEEK</a> - "
+        + "<a href=javascript:; onclick='add_item("+index+", digest_codegolf)'>CODEGOLF</a> - "
+        + "<a href=javascript:; onclick='add_item("+index+", digest_gamedev)'>GAMEDEV</a> - "
+        + "<a href=javascript:; onclick='add_item("+index+", digest_fun)'>FUN</a> - "
+        + "<a href=javascript:; onclick='add_item("+index+", digest_quotes)'>QUOTES</a>"
+        + "</h6><br>"
+              
       }
-      
-      html = html + "</p><h6><a target='_blank' href='//twitter.com/" + i.user.screen_name + "/status/" + i.id_str + "'>" + i.created_at.replace(/\+.*$/, "") + "</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_sites)'>SITE</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_html)'>HTML</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_css)'>CSS</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_js)'>JS</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_webdev)'>WEBDEV</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_art)'>ART</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_geek)'>GEEK</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_codegolf)'>CODEGOLF</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_gamedev)'>GAMEDEV</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_fun)'>FUN</a> - "
-      + "<a href=javascript:; onclick='add_item("+index+", digest_quotes)'>QUOTES</a>"
-      + "</h6>"
-            
+     
     }
     
     tweets.innerHTML = html;
@@ -135,7 +128,7 @@ add_item = function(index, container){
     
   url = 0;
   
-  text = i.retweeted_status ? i.retweeted_status.text : i.text;
+  text = i.retweeted_status ? i.retweeted_status.full_text : i.full_text;
   
   container.innerHTML += "<li>" 
   + text
