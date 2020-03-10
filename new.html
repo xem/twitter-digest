@@ -1,91 +1,50 @@
 ﻿<body id=b>
-<a href=//github.com/xem/twitter-digest><img style="position:absolute;top:0;right:0;border:0;margin:0" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-<h2>Twitter-digest</h2>
-<input id="month" size=7 value="Jun .* 2019"><button id="go">GO</button>
-<div id="tweets"></div>
-<div id="digest">
-
-<h2>DIGEST</h2>
-
-<h3>COOL SITES</h3>
-<ul id="digest_sites">
-</ul>
-
-<h3>WEB DEV</h3>
-<ul id="digest_webdev">
-</ul>
-
-<h3>ART</h3>
-<ul id="digest_art">
-</ul>
-
-<h3>GEEK</h3>
-<ul id="digest_geek">
-</ul>
-
-<h3>CODEGOLF</h3>
-<ul id="digest_codegolf">
-</ul>
-
-<h3>GAMEDEV</h3>
-<ul id="digest_gamedev">
-</ul>
-
-<h3>FUN</h3>
-<ul id="digest_fun">
-</ul>
-
-<h3>QUOTES</h3>
-<ul id="digest_quotes">
-</ul>
-
-</div>
+<!--h2>Twitter-digest</h2-->
+<input id="month" size=7 value="Jan.*2019"><button id="go">GO</button> <button id="txt">txt</button>
+<ul id="tweets" contenteditable></ul>
 <style>
 
 * { font-family: arial }
-p { background: #f3f3f3; border: 1px solid #ddd; padding: 10px; width: 800px; margin: 10px 0 0; }
+/*p { background: #f3f3f3; border: 1px solid #ddd; padding: 10px; width: 800px; margin: 10px 0 0; }*/
 h6 { margin: 3px 0; padding: 0 }
-img { max-height: 100px; max-width: 200px; margin: 5px 10px 5px 0; border: 1px solid #555; }
-#digest { background: #f3f3f3; position: fixed; width: calc(100% - 1000px); height: calc(100% - 50px); top: 10px; left: 850px; border: 1px solid #ddd; padding: 10px; overflow: auto }
+img { max-height: 200px; width:auto; margin: 5px 10px 5px 0; border: 1px solid #555; }
+twitter-widget { opacity: .5 }
+.MediaCard-mediaContainer { padding: 0 !important }
+.Interstitial-cookieConsent { display: none}
 </style>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <script>
 onload = function(){
-  if(localStorage["twitterdigest"]){
-    digest.innerHTML = localStorage["twitterdigest"];
-  }
+  //if(localStorage["twitterdigest"]){
+  //  digest.innerHTML = localStorage["twitterdigest"];
+  //}
 }
 
-window.YTD = { tweet: [] };
+jss = () => {
+  scr = document.createElement("SCRIPT");
+  scr.src = 'https://platform.twitter.com/widgets.js';
+  document.body.appendChild(scr);
+}
 
 go.onclick = function(){
-
-  xhr = new XMLHttpRequest;
-  xhr.open("GET", "tweet.js", 1);
-  xhr.send();
-  
-  xhr.onload = function(){
   
     newindex = 0;
-  
-    //console.log(xhr.response);
-    eval(xhr.response);
-    tweets.innerHTML = "";
-    html = "";
-    //console.log(window.YTD.tweet.part0);
     reg = new RegExp(month.value);
     for(index = 0; index < window.YTD.tweet.part0.length; index++){
     
-    
+      //console.log(0);
+      
       i = window.YTD.tweet.part0[index];
     
-      if(i.created_at.match(reg)){
+      if(i && i.tweet && i.tweet.created_at.match(reg)){
+      
+        //console.log(newindex);
         
         newindex++;
         
-        console.log(i.created_at, i.id, newindex);
+        //console.log(i.created_at, i.id, newindex);
       
         setTimeout(
         
@@ -93,32 +52,83 @@ go.onclick = function(){
         
           html = "";
           
-          html += '<br><blockquote class="twitter-tweet"><a href="https://twitter.com/MaximeEuziere/status/${i.id}">June 6, 2019</a></blockquote> ';
-          
-          html = html + "<h6>"
-          + "<a href=javascript:; onclick='add_item(${index-1}, digest_sites)'>SITE</a> - "
-          + "<a href=javascript:; onclick='add_item(${index-1}, digest_webdev)'>WEBDEV</a> - "
-          + "<a href=javascript:; onclick='add_item(${index-1}, digest_art)'>ART</a> - "
-          + "<a href=javascript:; onclick='add_item(${index-1}, digest_geek)'>GEEK</a> - "
-          + "<a href=javascript:; onclick='add_item(${index-1}, digest_codegolf)'>CODEGOLF</a> - "
-          + "<a href=javascript:; onclick='add_item(${index-1}, digest_gamedev)'>GAMEDEV</a> - "
-          + "<a href=javascript:; onclick='add_item(${index-1}, digest_fun)'>FUN</a> - "
-          + "<a href=javascript:; onclick='add_item(${index-1}, digest_quotes)'>QUOTES</a>"
-          + "</h6><br>";
+          html += '<br><blockquote class="twitter-tweet"><a href="https://twitter.com/MaximeEuziere/status/${i.tweet.id}">June 6, 2019</a></blockquote> ';
           
           tweets.insertAdjacentHTML("beforeEnd", html);
-          scr = document.createElement("SCRIPT");
-          scr.src = 'https://platform.twitter.com/widgets.js';
-          document.body.appendChild(scr);
+          
+          console.log("ok");
+          
+          jss();
+          
         `,
         
-        newindex * 300)
+        newindex * 5)
+        
       }
     }
-  }
+  
 }
 
-add_item = function(index, container){
+txt.onclick = () => {
+
+    //console.log(document.querySelector("twitter-widget"));
+    widgets = document.querySelectorAll("twitter-widget");
+    for(widget of widgets){
+      if(widget && widget.shadowRoot){
+      
+        anc = widget.shadowRoot.querySelector(".EmbeddedTweet-ancestor");
+        if(anc) anc.remove();
+        
+        quo = widget.shadowRoot.querySelector(".QuoteTweet");
+        if(quo) quo.remove();
+        
+        card = widget.shadowRoot.querySelector(".TwitterCardsGrid");
+        if(card) card.remove();
+        
+        html = "<li>";
+        
+        //console.log(
+        x = widget.shadowRoot.querySelectorAll(".tweet-text,.Tweet-card")
+        //);
+        for(i in x){
+          if(x[i] && x[i].innerHTML){
+            //console.log(x[i]);
+            html += x[i].innerHTML;
+          }
+        }
+        
+        //console.log(
+        x = widget.shadowRoot.querySelectorAll("a.long-permalink")
+        //);
+        for(i in x){
+          if(x[i] && x[i].innerHTML){
+            //console.log(x[i]);
+            html += " - " + x[i].outerHTML.replace(/>.*</, ">link</");
+          }
+        }
+        widget.insertAdjacentHTML("afterend",html);
+        widget.remove();
+        //z++
+      }
+    }
+    
+    emoji = document.querySelectorAll(".Emoji");
+    for(emojo of emoji){
+      emojo.outerHTML = emojo.getAttribute("alt");
+    }
+    
+}
+
+z = 0;
+
+
+//setTimeout(y,6000);
+//setTimeout(y,7000);
+//setTimeout(y,8000);
+//setTimeout(y,9000);
+//setTimeout(y,10000);
+
+/*add_item = function(index, container){
   
   text = document.querySelectorAll("twitter-widget")[index].shadowRoot.innerHTML.replace(/\s+/g," ").match(/<p class="Tweet-text e-entry-title" lang=".." dir="ltr">(.*?)<\/p>/g);
   
@@ -130,9 +140,9 @@ add_item = function(index, container){
   
   localStorage["twitterdigest"] = digest.innerHTML;
 
-}
+}*/
 
-oncontextmenu = function(e){
+/*oncontextmenu = function(e){
 
   //console.log(e);
   
@@ -143,7 +153,13 @@ oncontextmenu = function(e){
   }
   e.preventDefault();
   localStorage["twitterdigest"] = digest.innerHTML;
-}
+}*/
 
+</script>
+
+<script src=tweet.js></script>
+
+<script>
+console.log(YTD);
 </script>
 
