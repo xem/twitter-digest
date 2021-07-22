@@ -1,6 +1,6 @@
 ﻿<body id=b>
 <!--h2>Twitter-digest</h2-->
-<input id="month" size=7 value="Jan.*2019"><button id="go">GO</button> <button id="txt">txt</button>
+<input id="month" size=7 value="Feb.*2019"><button id="go">GO</button> <button id="txt">txt</button>
 <ul id="tweets" contenteditable></ul>
 <style>
 
@@ -52,7 +52,7 @@ go.onclick = function(){
         
           html = "";
           
-          html += '<br><blockquote class="twitter-tweet"><a href="https://twitter.com/MaximeEuziere/status/${i.tweet.id}">June 6, 2019</a></blockquote> ';
+          html += '<br><blockquote class="twitter-tweet"><a href="https://twitter.com/MaximeEuziere/status/${i.tweet.id}">June 6, 2019</a></blockquote>';
           
           tweets.insertAdjacentHTML("beforeEnd", html);
           
@@ -115,6 +115,11 @@ txt.onclick = () => {
     emoji = document.querySelectorAll(".Emoji");
     for(emojo of emoji){
       emojo.outerHTML = emojo.getAttribute("alt");
+    }
+    
+    links = document.querySelectorAll("a");
+    for(l of links){
+      l.setAttribute("contenteditable", "false");
     }
     
 }

@@ -245,3 +245,486 @@
 
 
 </ul>
+
+
+<ul id="tweets" contenteditable="" class=""><li>Disk space issues? Check .git folder&nbsp;-&nbsp;</li><br><li>Physically Based Rendering: From Theory to Implementation&nbsp;(free e-book) -&nbsp;<a href="https://t.co/74KViojhCC" rel="nofollow noopener" dir="ltr" data-expanded-url="http://www.pbr-book.org/" class="link customisable" target="_blank" title="http://www.pbr-book.org/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://www.</span>pbr-book.org<span class="u-hiddenVisually">/&nbsp;</span></a></li><li>has anyone made a JS formatter called pettier that doesn't fix any code but just leaves snarky comments like "// 4 nested callbacks, really?" or "// wow just putting it right in the global namespace huh"&nbsp;</li><br><li>Breakout on Atari <a href="https://t.co/TEHTZw1ZZN" rel="nofollow noopener" dir="ltr" data-expanded-url="https://twitter.com/elizemorgan/status/1085885842533560320" class="link customisable" target="_blank" title="https://twitter.com/elizemorgan/status/1085885842533560320" data-tweet-id="1085885842533560320" data-tweet-item-type="23" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>twitter.com/elizemorgan/st<span class="u-hiddenVisually">atus/1085885842533560320&nbsp;</span>…</a>&nbsp;</li><br><li>Received some very disappointing news today - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-18T20:24:04+0000" data-scribe="element:full_timestamp" href="https://twitter.com/Michael1979/status/1086358582952632320" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-18T20:24:04+0000" pubdate="" title="Time posted: January 18, 2019 20:24:04 (UTC)">link<!--/a--></time></a></li><br><li>Learning Git? Perfect soundtrack - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-18T21:50:51+0000" data-scribe="element:full_timestamp" href="https://twitter.com/CodeDoesMeme/status/1086380422743904263" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-18T21:50:51+0000" pubdate="" title="Time posted: January 18, 2019 21:50:51 (UTC)">link<!--/a--></time></a></li><br><li>Some stupid fish crawled out of the water 35 million years ago and now we have to deal with taxes smh. - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-18T18:35:02+0000" data-scribe="element:full_timestamp" href="https://twitter.com/TheWeirdWorld/status/1086331145321500673" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-18T18:35:02+0000" pubdate="" title="Time posted: January 18, 2019 18:35:02 (UTC)">link<!--/a--></time></a></li><br><li>Mom: Dad said you invented a thing? ESLint?&nbsp;- <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-18T00:11:05+0000" data-scribe="element:full_timestamp" href="https://twitter.com/slicknet/status/1086053326007881728" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-18T00:11:05+0000" pubdate="" title="Time posted: January 18, 2019 00:11:05 (UTC)">link<!--/a--></time></a></li><li><br></li><li>Adding a &lt;h1&gt;statically rendered&lt;/h1&gt; title to the top of your JS heavy application is a great way to feel how expensive your runtime overhead is. - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-17T03:24:24+0000" data-scribe="element:full_timestamp" href="https://twitter.com/samccone/status/1085739587501121536" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-17T03:24:24+0000" pubdate="" title="Time posted: January 17, 2019 03:24:24 (UTC)">link<!--/a--></time></a></li><li><br></li><li>i find it hard to believe that EVERYBODY was kung fu fighting - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-17T03:43:57+0000" data-scribe="element:full_timestamp" href="https://twitter.com/KimmyMonte/status/1085744505851183105" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-17T03:43:57+0000" pubdate="" title="Time posted: January 17, 2019 03:43:57 (UTC)">link<!--/a--></time></a></li><li><br></li><li>You can buy a birthday cake every day if you want to. They don't even check ID. - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-15T17:43:52+0000" data-scribe="element:full_timestamp" href="https://twitter.com/Piecezilla/status/1085231106046062592" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-15T17:43:52+0000" pubdate="" title="Time posted: January 15, 2019 17:43:52 (UTC)">link<!--/a--></time></a></li><br><li>vu sur koreus - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-16T13:11:34+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MaximeEuziere/status/1085524964948742144" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-16T13:11:34+0000" pubdate="" title="Time posted: January 16, 2019 13:11:34 (UTC)">link<!--/a--></time></a><br></li><br><li>In Terminator 2, Robert Patrick improvises the moment when the T-1000 walks through the bars at the jail. The door was supposed to be open but the actor surprised the cast and crew by melting his body into a metal liquid and walking through it. -&nbsp;<a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-14T20:51:16+0000" data-scribe="element:full_timestamp" href="https://twitter.com/HeelturnShaggy/status/1084915877252861953" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-14T20:51:16+0000" pubdate="" title="Time posted: January 14, 2019 20:51:16 (UTC)">link<!--/a--></time></a></li><br><li>The Rendering of Rise of the Tomb Raider – <a href="https://t.co/EDdr2bfp4b" rel="nofollow noopener" dir="ltr" data-expanded-url="http://www.elopezr.com/the-rendering-of-rise-of-the-tomb-raider/" class="link customisable" target="_blank" title="http://www.elopezr.com/the-rendering-of-rise-of-the-tomb-raider/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://www.</span>elopezr.com/the-rendering-<span class="u-hiddenVisually">of-rise-of-the-tomb-raider/&nbsp;</span>…</a></li><br><li>Gaming the lottery: How one winner used math to overcome the odds - <a href="https://t.co/16i04XUmlS" rel="nofollow noopener" dir="ltr" data-expanded-url="https://hackernoon.com/gaming-the-lottery-how-one-winner-used-math-to-overcome-the-odds-71c8f688cedd" class="link customisable" target="_blank" title="https://hackernoon.com/gaming-the-lottery-how-one-winner-used-math-to-overcome-the-odds-71c8f688cedd" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>hackernoon.com/gaming-the-lot<span class="u-hiddenVisually">tery-how-one-winner-used-math-to-overcome-the-odds-71c8f688cedd&nbsp;</span>…</a></li><li>Found it on Play Store :) - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-15T17:57:39+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MaximeEuziere/status/1085234574333014021" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-15T17:57:39+0000" pubdate="" title="Time posted: January 15, 2019 17:57:39 (UTC)">link<!--/a--></time></a></li><br><li>Non-Euclidean Worlds Engine - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-14T12:53:29+0000" data-scribe="element:full_timestamp" href="https://twitter.com/algoritmic/status/1084795639358255109" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-14T12:53:29+0000" pubdate="" title="Time posted: January 14, 2019 12:53:29 (UTC)">link<!--/a--></time></a></li><br><li>Pi: 12.1 Trillion Digits - <a href="https://t.co/aLDvhHL1Dj" rel="nofollow noopener" dir="ltr" data-expanded-url="http://www.numberworld.org/misc_runs/pi-12t/" class="link customisable" target="_blank" title="http://www.numberworld.org/misc_runs/pi-12t/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://www.</span>numberworld.org/misc_runs/pi-1<span class="u-hiddenVisually">2t/&nbsp;</span>…</a></li><br><li>Si tu regardes Mac Gyver à l'envers, c'est l'histoire d'un mec qui démonte un hélicoptère parce qu'il a besoin d'un cure-dent.</li><li>Dear websites<br>Stop asking me if I want to receive push notifications<br>I do not want to receive push notifications<br>Ever&nbsp;</li><br><li>c/c++ tinkering and obfuscation.<a href="https://t.co/q21ymFcC7O" rel="nofollow noopener" dir="ltr" data-expanded-url="http://jroweboy.github.io/c/asm/2015/01/26/when-is-main-not-a-function.html" class="link customisable" target="_blank" title="http://jroweboy.github.io/c/asm/2015/01/26/when-is-main-not-a-function.html" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>jroweboy.github.io/c/asm/2015/01/<span class="u-hiddenVisually">26/when-is-main-not-a-function.html&nbsp;</span>…</a>
+  
+<article class="MediaCard
+           
+           customisable-border" data-scribe="component:card" dir="ltr">
+  <div class="MediaCard-media" data-scribe="element:photo">
+
+    <div class="MediaCard-widthConstraint js-cspForcedStyle" style="max-width: 1136px" data-style="max-width: 1136px">
+      <div class="MediaCard-mediaContainer js-cspForcedStyle MediaCard--roundedTop MediaCard--roundedBottom" style="padding-bottom: 56.3380%" data-style="padding-bottom: 56.3380%"><br></div></div></div></article></li><li><article class="MediaCard
+           
+           customisable-border" data-scribe="component:card" dir="ltr"><div class="MediaCard-media" data-scribe="element:photo"><div class="MediaCard-widthConstraint js-cspForcedStyle" style="max-width: 458px" data-style="max-width: 458px">
+    </div>
+  </div>
+</article>Related - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-14T01:27:55+0000" data-scribe="element:full_timestamp" href="https://twitter.com/lunasorcery/status/1084623111100817408" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-14T01:27:55+0000" pubdate="" title="Time posted: January 14, 2019 01:27:55 (UTC)">link<!--/a--></time></a></li><br><li>Sony's Clever but Flawed PlayStation Copy Protection - <a href="https://t.co/rZPP3ndFFf" rel="nofollow noopener" dir="ltr" data-expanded-url="https://youtu.be/XUwSOfQ1D3c" class="link customisable" target="_blank" title="https://youtu.be/XUwSOfQ1D3c" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>youtu.be/XUwSOfQ1D3c<span class="u-hiddenVisually">&nbsp;</span></a></li><br><li>Using Fourier Transforms To Multiply Numbers - <a href="https://t.co/j1PQwj4QB7" rel="nofollow noopener" dir="ltr" data-expanded-url="http://blog.robertelder.org/fast-multiplication-using-fourier-transform/" class="link customisable" target="_blank" title="http://blog.robertelder.org/fast-multiplication-using-fourier-transform/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>blog.robertelder.org/fast-multiplic<span class="u-hiddenVisually">ation-using-fourier-transform/&nbsp;</span>…</a> - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-14T11:25:50+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MaximeEuziere/status/1084773580414640128" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-14T11:25:50+0000" pubdate="" title="Time posted: January 14, 2019 11:25:50 (UTC)">link<!--/a--></time></a></li><br><li>An Interactive Introduction to Fourier Transforms!&nbsp;<a href="https://t.co/rf0AM0D7S0" rel="nofollow noopener" dir="ltr" data-expanded-url="http://jezzamon.com/fourier" class="link customisable" target="_blank" title="http://jezzamon.com/fourier" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>jezzamon.com/fourier<span class="u-hiddenVisually">&nbsp;</span></a>&nbsp;</li><br><li>TIL that Indian Standard Time is an odd UTC+5:30 because British colonists could simply turn their watch upside down to see India's time in the UK and vice versa. - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-13T19:18:01+0000" data-scribe="element:full_timestamp" href="https://twitter.com/mattetti/status/1084530024005259264" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-13T19:18:01+0000" pubdate="" title="Time posted: January 13, 2019 19:18:01 (UTC)">link<!--/a--></time></a><br></li><br><li>Easy and perfomant way to calculate the byte-length of an UTF-8 string in browser (IE10+):<br>new Blob(["üñìçödé strīng"]).size - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-13T21:15:34+0000" data-scribe="element:full_timestamp" href="https://twitter.com/subzey/status/1084559602941919233" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-13T21:15:34+0000" pubdate="" title="Time posted: January 13, 2019 21:15:34 (UTC)">link<!--/a--></time></a></li><li>You say: we’re trying for a child.&nbsp;I hear: my husbands been doing big huge cums in my pussy</li><br><li>you already have a child named "Untitled Child." Replace?</li>
+
+</ul>
+
+<ul id="tweets" contenteditable="" class=""><li><br></li><li>LOL - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-10T16:58:09+0000" data-scribe="element:full_timestamp" href="https://twitter.com/memecrashes/status/1083407659074764800" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-10T16:58:09+0000" pubdate="" title="Time posted: January 10, 2019 16:58:09 (UTC)">link<!--/a--></time></a></li><br><li>Underrated answer - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-10T09:34:10+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MaximeEuziere/status/1083295929296400384" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-10T09:34:10+0000" pubdate="" title="Time posted: January 10, 2019 09:34:10 (UTC)">link<!--/a--></time></a></li><br><li>With 1948 triangles, the model for the Menu Toad in the Nintendo 64 version of Mario Tennis is one of the most complex character models on the system. - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-09T20:28:51+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MarioBrothBlog/status/1083098296602816513" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-09T20:28:51+0000" pubdate="" title="Time posted: January 09, 2019 20:28:51 (UTC)">link<!--/a--></time></a></li><br><li>It’s 2019 and I Still Make Websites with my Bare Hands - <a href="https://t.co/7gzwZl55s4" rel="nofollow noopener" dir="ltr" data-expanded-url="https://medium.com/@mattholt/its-2019-and-i-still-make-websites-with-my-bare-hands-73d4eec6b7" class="link customisable" target="_blank" title="https://medium.com/@mattholt/its-2019-and-i-still-make-websites-with-my-bare-hands-73d4eec6b7" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>medium.com/@mattholt/its-<span class="u-hiddenVisually">2019-and-i-still-make-websites-with-my-bare-hands-73d4eec6b7&nbsp;</span>…</a>&nbsp;</li><li><br></li><br><li>Wife - <a href="https://t.co/WWJewzadfY" rel="nofollow noopener" dir="ltr" data-expanded-url="https://clientsfromhell.net/10415-2/" class="link customisable" target="_blank" title="https://clientsfromhell.net/10415-2/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>clientsfromhell.net/10415-2/<span class="u-hiddenVisually">&nbsp;</span></a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary_large_image" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><li><br></li><br><li><a href="https://t.co/5CjWknnCyG" rel="nofollow noopener" dir="ltr" data-expanded-url="https://solarsystem.nasa.gov/" class="link customisable" target="_blank" title="https://solarsystem.nasa.gov/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>solarsystem.nasa.gov<span class="u-hiddenVisually">/&nbsp;</span></a>
+  
+<article class="MediaCard
+           
+           customisable-border" data-scribe="component:card" dir="ltr">
+  <div class="MediaCard-media" data-scribe="element:photo">
+
+    <div class="MediaCard-widthConstraint js-cspForcedStyle" style="max-width: 1200px" data-style="max-width: 1200px">
+      <div class="MediaCard-mediaContainer js-cspForcedStyle MediaCard--roundedTop MediaCard--roundedBottom" style="padding-bottom: 49.0000%" data-style="padding-bottom: 49.0000%"><br></div></div></div></article></li><li>Marble Marcher fractal game&nbsp; - <a href="https://t.co/AEAELJAsnl" rel="nofollow noopener" dir="ltr" data-expanded-url="https://codeparade.itch.io/marblemarcher" class="link customisable" target="_blank" title="https://codeparade.itch.io/marblemarcher" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>codeparade.itch.io/marblemarcher<span class="u-hiddenVisually">&nbsp;</span></a>&nbsp;</li><li>Astronaut Accidentally Calls 911 from Space - <a href="https://t.co/FfULvTq8Dj" rel="nofollow noopener" dir="ltr" data-expanded-url="https://www.newsweek.com/astronaut-accidentally-calls-911-space-1276892" class="link customisable" target="_blank" title="https://www.newsweek.com/astronaut-accidentally-calls-911-space-1276892" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://www.</span>newsweek.com/astronaut-acci<span class="u-hiddenVisually">dentally-calls-911-space-1276892&nbsp;</span>…</a>&nbsp;</li><br><li>Innocent New York man billed $4,600 for police rectal probe - <a href="https://t.co/DHDpDkcnHF" rel="nofollow noopener" dir="ltr" data-expanded-url="https://www.bbc.com/news/world-us-canada-46637634" class="link customisable" target="_blank" title="https://www.bbc.com/news/world-us-canada-46637634" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://www.</span>bbc.com/news/world-us-<span class="u-hiddenVisually">canada-46637634&nbsp;</span>…</a>&nbsp;</li><br><li>Photo Wake-Up: 3D Character Animation from a Single Photo - <a href="https://t.co/xXTgvUl1JC" rel="nofollow noopener" dir="ltr" data-expanded-url="https://grail.cs.washington.edu/projects/wakeup/" class="link customisable" target="_blank" title="https://grail.cs.washington.edu/projects/wakeup/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>grail.cs.washington.edu/projects/wakeu<span class="u-hiddenVisually">p/&nbsp;</span>…</a>&nbsp;</li><br><li>CSS: Multi-Line Inline Gradient - <a href="https://t.co/5UU3XJsNaI" rel="nofollow noopener" dir="ltr" data-expanded-url="https://css-tricks.com/multi-line-inline-gradient/" class="link customisable" target="_blank" title="https://css-tricks.com/multi-line-inline-gradient/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>css-tricks.com/multi-line-inl<span class="u-hiddenVisually">ine-gradient/&nbsp;</span>…</a>&nbsp;</li><br><li>Physics puzzles - <a href="https://t.co/1wXK6Pz0XT" rel="nofollow noopener" dir="ltr" data-expanded-url="https://www.lockhaven.edu/~dsimanek/puzzles/puzzles.htm" class="link customisable" target="_blank" title="https://www.lockhaven.edu/~dsimanek/puzzles/puzzles.htm" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://www.</span>lockhaven.edu/~dsimanek/puzz<span class="u-hiddenVisually">les/puzzles.htm&nbsp;</span>…</a></li><br><li><a href="https://t.co/7x4rlrU51C" rel="nofollow noopener" dir="ltr" data-expanded-url="https://www.whaou.com/" class="link customisable" target="_blank" title="https://www.whaou.com/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://www.</span>whaou.com<span class="u-hiddenVisually">/&nbsp;</span></a>&nbsp;</li><br><li>sure, peggle, make phone calls, who gives a shit anymore - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-06T07:50:25+0000" data-scribe="element:full_timestamp" href="https://twitter.com/awesomonster/status/1081820267834273798" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-06T07:50:25+0000" pubdate="" title="Time posted: January 06, 2019 07:50:25 (UTC)">link<!--/a--></time></a></li><li>COLD/HOT-&nbsp;</li><li><a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-06T06:43:13+0000" data-scribe="element:full_timestamp" href="https://twitter.com/_he_art/status/1081803356971003904" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-06T06:43:13+0000" pubdate="" title="Time posted: January 06, 2019 06:43:13 (UTC)">link<!--/a--></time></a></li><br><li>Well, fuck - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-04T22:05:14+0000" data-scribe="element:full_timestamp" href="https://twitter.com/lilfidget/status/1081310613953961984" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-04T22:05:14+0000" pubdate="" title="Time posted: January 04, 2019 22:05:14 (UTC)">link<!--/a--></time></a></li><li><br></li><li>justecorruptio rewrote mini3Dplot in 436b! - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-01-05T16:27:04+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MaximeEuziere/status/1081587899215347712" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-01-05T16:27:04+0000" pubdate="" title="Time posted: January 05, 2019 16:27:04 (UTC)">link<!--/a--></time></a></li><br><li>protip: The URLs <a href="https://t.co/ZRJKY1ggJd" rel="nofollow noopener" dir="ltr" data-expanded-url="http://doc.new" class="link customisable" target="_blank" title="http://doc.new" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>doc.new<span class="u-hiddenVisually">&nbsp;</span></a> and <a href="https://t.co/PMcZl4UFWW" rel="nofollow noopener" dir="ltr" data-expanded-url="http://sheet.new" class="link customisable" target="_blank" title="http://sheet.new" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>sheet.new<span class="u-hiddenVisually">&nbsp;</span></a> quickly create new google docs 'n spreadsheets</li><br><li>"My adult years have made me question why anyone would go big when they could go home."&nbsp;</li><br><li>"Captchas are essentially bots blocking other bots"</li><br><li>An Unrealistic Resolution. -&nbsp;<a href="https://t.co/ITGuqL6NeF" rel="nofollow noopener" dir="ltr" data-expanded-url="http://mrlovenstein.com/comic/1055" class="link customisable" target="_blank" title="http://mrlovenstein.com/comic/1055" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>mrlovenstein.com/comic/1055<span class="u-hiddenVisually">&nbsp;</span></a></li><blockquote class="twitter-tweet twitter-tweet-error" data-twitter-extracted-i158402891464076736="true"><br></blockquote><li>Reducing the opacity of a box-shadow as the size of it increases...<a href="https://t.co/MOvU2pti65" rel="nofollow noopener" dir="ltr" data-expanded-url="https://codepen.io/scottyzen/full/KbNRJq" class="link customisable" target="_blank" title="https://codepen.io/scottyzen/full/KbNRJq" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>codepen.io/scottyzen/full<span class="u-hiddenVisually">/KbNRJq&nbsp;</span>…</a>
+  
+  
+  </li><blockquote class="twitter-tweet twitter-tweet-error" data-twitter-extracted-i158402891464076736="true"><br></blockquote><li>"isnt birdbox bandersnatch the guy who plays dr. strange"</li><br><li>"U+2001: A Space Character"&nbsp;</li><br><li>"u ever think about how the year 3000 is literally 81 years away"</li></ul>
+  
+  <h1>02</h1>
+  
+  <ul id="tweets" contenteditable="" class=""><li><br></li><br><li>I'm OK at yoga but ... - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-27T00:28:50+0000" data-scribe="element:full_timestamp" href="https://twitter.com/klara_sjo/status/1100553307448332293" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-27T00:28:50+0000" pubdate="" title="Time posted: February 27, 2019 00:28:50 (UTC)">link<!--/a--></time></a></li><br><li>Genius - <a href="https://t.co/5i4MBAPHWi" rel="nofollow noopener" dir="ltr" data-expanded-url="https://expensive.chat/" class="link customisable" target="_blank" title="https://expensive.chat/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>expensive.chat<span class="u-hiddenVisually">/&nbsp;</span></a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary_large_image" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><li><br></li><li>tfw you go to eat your hallway pizza and get told you’re in the live shot -&nbsp;<a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-27T21:22:53+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MikeUehlein/status/1100868901045440513" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-27T21:22:53+0000" pubdate="" title="Time posted: February 27, 2019 21:22:53 (UTC)">link<!--/a--></time></a></li><br><li>AI you say? - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-27T20:10:17+0000" data-scribe="element:full_timestamp" href="https://twitter.com/CodeDoesMeme/status/1100850629336092672" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-27T20:10:17+0000" pubdate="" title="Time posted: February 27, 2019 20:10:17 (UTC)">link<!--/a--></time></a></li><br><li>Look Ma, No Media Queries! Responsive Layouts Using CSS Grid - <a href="https://t.co/szoEii213v" rel="nofollow noopener" dir="ltr" data-expanded-url="https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/" class="link customisable" target="_blank" title="https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>css-tricks.com/look-ma-no-med<span class="u-hiddenVisually">ia-queries-responsive-layouts-using-css-grid/&nbsp;</span>…</a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><li><br></li><br><li>Journée de travail, ou journée au travail ? -  <a href="https://t.co/rWaNawGgqo" rel="nofollow noopener" dir="ltr" data-expanded-url="http://dev.howtommy.net/?d=2019/02/25/09/53/57-journee-de-travail-ou-journee-au-travail" class="link customisable" target="_blank" title="http://dev.howtommy.net/?d=2019/02/25/09/53/57-journee-de-travail-ou-journee-au-travail" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>dev.howtommy.net/?d=2019/02/25/<span class="u-hiddenVisually">09/53/57-journee-de-travail-ou-journee-au-travail&nbsp;</span>…</a>&nbsp;</li><li><article class="MediaCard
+           
+           customisable-border" data-scribe="component:card" dir="ltr"><div class="MediaCard-media" data-scribe="element:photo"><div class="MediaCard-widthConstraint js-cspForcedStyle" style="max-width: 758px" data-style="max-width: 758px"><div class="MediaCard-mediaContainer js-cspForcedStyle MediaCard--roundedTop MediaCard--roundedBottom" style="padding-bottom: 100.0000%" data-style="padding-bottom: 100.0000%"><br></div></div></div></article></li><br><li>Ping the cheater hotel - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-26T16:19:18+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MaximeEuziere/status/1100430114008064000" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-26T16:19:18+0000" pubdate="" title="Time posted: February 26, 2019 16:19:18 (UTC)">link<!--/a--></time></a></li><br><li>
+  
+<article class="MediaCard
+           
+           customisable-border" data-scribe="component:card" dir="ltr">
+  <div class="MediaCard-media" data-scribe="element:photo">
+
+    <div class="MediaCard-widthConstraint js-cspForcedStyle" style="max-width: 552px" data-style="max-width: 552px">
+      <div class="MediaCard-mediaContainer js-cspForcedStyle MediaCard--roundedTop MediaCard--roundedBottom" style="padding-bottom: 75.0000%" data-style="padding-bottom: 75.0000%">seat for 1 and a half -</div></div></div></article><a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-23T13:05:00+0000" data-scribe="element:full_timestamp" href="https://twitter.com/CursedArchitect/status/1099294051390517248" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-23T13:05:00+0000" pubdate="" title="Time posted: February 23, 2019 13:05:00 (UTC)">link<!--/a--></time></a></li><br><li>[in hell]<br>ME: *sitting down in auditorium* this doesn’t seem so bad<br>SATAN: *on stage* hi everyone, before I begin my interactive performance—<br>ME: ugh<br>SATAN: —I’d like everyone to move down to the first three rows<br>ME: UGH</li><br><li>Doctor: You have 6 months to live<br>Me: omg what can I do?<br>Doctor: Oh lots of things<br>Me: Phew<br>Doctor: but only for 6 months</li><br><li>"Circle-vs-box" collision - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-26T01:17:16+0000" data-scribe="element:full_timestamp" href="https://twitter.com/2DArray/status/1100203108997697536" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-26T01:17:16+0000" pubdate="" title="Time posted: February 26, 2019 01:17:16 (UTC)">link<!--/a--></time></a></li><br><li>"They never told me which machine so I’ve been raging against toasters is that right"&nbsp;</li><li>*absolute silence in the lecture room*</li><li>My stomach: -&nbsp;<a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-24T11:51:29+0000" data-scribe="element:full_timestamp" href="https://twitter.com/dino_comedy/status/1099637938349109248" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-24T11:51:29+0000" pubdate="" title="Time posted: February 24, 2019 11:51:29 (UTC)">link<!--/a--></time></a></li><br><li><a href="https://t.co/umNa95OFON" rel="nofollow noopener" dir="ltr" data-expanded-url="https://uxmyths.com/" class="link customisable" target="_blank" title="https://uxmyths.com/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>uxmyths.com<span class="u-hiddenVisually">/&nbsp;</span></a><br><br></li><li><br>Gamedev tip:<br>instead of optimizing a function, ask yourself if it really needs to be run every single frame?<br>what if it only ran 6x a second?<br>instead of tons of work optimizing, in no work you get 10x perf boost</li><li>2011: The world’s gonna end next year...like probably....bc of something w the Mayans<br>People: *freaking out*<br>2019: There is SCIENTIFIC PROOF that Global Warming is rapidly destroying life as we know it, and we need change, fast.<br>People: lol ok&nbsp;</li><li>"the sneaker can’t be tightened or properly worn" because there's a bug in an update. What a time to be alive <br><br> <a href="https://t.co/RnApmNGsi6" rel="nofollow noopener" dir="ltr" data-expanded-url="https://www.theverge.com/circuitbreaker/2019/2/21/18234615/nike-adapt-bb-fix-android-bug-firmware-update-patch" class="link customisable" target="_blank" title="https://www.theverge.com/circuitbreaker/2019/2/21/18234615/nike-adapt-bb-fix-android-bug-firmware-update-patch" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://www.</span>theverge.com/circuitbreaker<span class="u-hiddenVisually">/2019/2/21/18234615/nike-adapt-bb-fix-android-bug-firmware-update-patch&nbsp;</span>…</a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-constrainedByMaxWidth is-loaded" data-card-name="summary_large_image" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><li><br></li><br><li>Humans give little gold humans out to other humans who pretend to be other humans the best</li><br><li>Game development secret:&nbsp;Make the enemies in your game ghosts. Then when their pathfinding goes wrong and they go through things, you just say “well it’s ghosts”</li><br><li>Mais lol ce thread&nbsp;<a href="https://t.co/kmuD9HizKr" rel="nofollow noopener" dir="ltr" data-expanded-url="https://twitter.com/Fvkemonster/status/1099773854262747136" class="link customisable" target="_blank" title="https://twitter.com/Fvkemonster/status/1099773854262747136" data-tweet-id="1099773854262747136" data-tweet-item-type="23" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>twitter.com/Fvkemonster/st<span class="u-hiddenVisually">atus/1099773854262747136&nbsp;</span>…</a></li><br><li>3D Mario games maps explorable in your browser -  <a href="https://t.co/jqwnocF1r5" rel="nofollow noopener" dir="ltr" data-expanded-url="https://noclip.website/" class="link customisable" target="_blank" title="https://noclip.website/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>noclip.website<span class="u-hiddenVisually">/&nbsp;</span></a><br></li><br><li>The Impossible Mathematics of the Real World - <a href="https://t.co/OjwEkECKKu" rel="nofollow noopener" dir="ltr" data-expanded-url="http://nautil.us/issue/69/patterns/the-impossible-mathematics-of-the-real-world-rp" class="link customisable" target="_blank" title="http://nautil.us/issue/69/patterns/the-impossible-mathematics-of-the-real-world-rp" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>nautil.us/issue/69/patte<span class="u-hiddenVisually">rns/the-impossible-mathematics-of-the-real-world-rp&nbsp;</span>…</a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary_large_image" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><br><li>RT si le matin faut pas te parler avant que t'aies bu un café, pris une douche, fait ta journée de taf, dîné et que tu sois allé te coucher.</li><li>*wishes not all tools were React-dependent*<br>Some dude who apparently relates to React on a very personal level: NO YOU’RE WRONG STOP TRYING TO BE A VICTIM AND EMBRACE THE NEW WEB ORDER REACT IS THE ONLY GOOD THING ON THE WEB ACCEPT IT OR GO HOME.</li><br><li>If someone is *that* threatened by the idea that React could be replaced by something better, they either didn’t have much of a career before React or can’t imagine one after.</li><li>Anti-vaxx mum requests advice for protecting her baby from illnesses - <a href="https://t.co/eccCqk8C1q" rel="nofollow noopener" dir="ltr" data-expanded-url="http://vt.co/lifestyle/health/anti-vaxx-mothers-facebook-post-highlights-how-dangerous-the-movement-is-for-children/?fbclid=IwAR2i3jRz01v0DchGd4dRC8cE-H6hrxzcnw37KdRtBdUaL3_974uODm8DBXM" class="link customisable" target="_blank" title="http://vt.co/lifestyle/health/anti-vaxx-mothers-facebook-post-highlights-how-dangerous-the-movement-is-for-children/?fbclid=IwAR2i3jRz01v0DchGd4dRC8cE-H6hrxzcnw37KdRtBdUaL3_974uODm8DBXM" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>vt.co/lifestyle/heal<span class="u-hiddenVisually">th/anti-vaxx-mothers-facebook-post-highlights-how-dangerous-the-movement-is-for-children/?fbclid=IwAR2i3jRz01v0DchGd4dRC8cE-H6hrxzcnw37KdRtBdUaL3_974uODm8DBXM&nbsp;</span>…</a></li><li><br></li><li>All of GitHub's menus &amp; dialogs work without JavaScript. - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-20T16:37:30+0000" data-scribe="element:full_timestamp" href="https://twitter.com/Keithamus/status/1098260366017134592" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-20T16:37:30+0000" pubdate="" title="Time posted: February 20, 2019 16:37:30 (UTC)">link<!--/a--></time></a></li><li><br></li><li>How to Make Other Developers Hate to Work with You - <a href="https://t.co/GRrPaq4HIA" rel="nofollow noopener" dir="ltr" data-expanded-url="https://anaxi.com/blog/2019/02/20/how-to-make-other-developers-hate-to-work-with-you/" class="link customisable" target="_blank" title="https://anaxi.com/blog/2019/02/20/how-to-make-other-developers-hate-to-work-with-you/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>anaxi.com/blog/2019/02/2<span class="u-hiddenVisually">0/how-to-make-other-developers-hate-to-work-with-you/&nbsp;</span>…</a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary_large_image" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><br><li>Amen - <a href="https://t.co/d6Y5zTCNi6" rel="nofollow noopener" dir="ltr" data-expanded-url="https://brice.coquereau.fr/2019/02/19/fr/chers-recruteurs/" class="link customisable" target="_blank" title="https://brice.coquereau.fr/2019/02/19/fr/chers-recruteurs/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>brice.coquereau.fr/2019/02/19/fr/<span class="u-hiddenVisually">chers-recruteurs/&nbsp;</span>…</a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><div><br></div><br><li>Thank Excel! -&nbsp;<a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-19T13:47:08+0000" data-scribe="element:full_timestamp" href="https://twitter.com/ybsmee/status/1097855104776978432" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-19T13:47:08+0000" pubdate="" title="Time posted: February 19, 2019 13:47:08 (UTC)">link<!--/a--></time></a></li><li>"A treadmill is just an expensive version of the ground"</li><br><li><a href="https://t.co/ezWGcBrU4p" rel="nofollow noopener" dir="ltr" data-expanded-url="https://thiscatdoesnotexist.com/" class="link customisable" target="_blank" title="https://thiscatdoesnotexist.com/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>thiscatdoesnotexist.com<span class="u-hiddenVisually">/&nbsp;</span></a></li><br><li>Google says the built-in microphone it never told Nest users about was 'never supposed to be a secret' - <a href="https://t.co/w2FrAN4z6o" rel="nofollow noopener" dir="ltr" data-expanded-url="https://www.businessinsider.fr/us/nest-microphone-was-never-supposed-to-be-a-secret-2019-2" class="link customisable" target="_blank" title="https://www.businessinsider.fr/us/nest-microphone-was-never-supposed-to-be-a-secret-2019-2" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://www.</span>businessinsider.fr/us/nest-microp<span class="u-hiddenVisually">hone-was-never-supposed-to-be-a-secret-2019-2&nbsp;</span>…</a></li><li>me: i love sleepovers<br>doctor: this isn’t a sleepover, you’re in the hospital <br>me: then why do I have this nightgown <br>doctor: that’s a hospital gown <br>me: truth or dare<br>doctor: <br>me:<br>doctor: dare</li><br><li>"Introverts generate energy when they’re by themselves, then at social events extroverts suck the introverts’ energy to later consume it when they’re alone."</li><li>Who heard snoring and said “Yup, that’s the letter Z”</li><br><li>How to generate random geocoordinates within a given radius using the Haversine Formula - <a href="https://t.co/Z6VNEkVlYL" rel="nofollow noopener" dir="ltr" data-expanded-url="https://jordinl.com/posts/2019-02-15-how-to-generate-random-geocoordinates-within-given-radius" class="link customisable" target="_blank" title="https://jordinl.com/posts/2019-02-15-how-to-generate-random-geocoordinates-within-given-radius" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>jordinl.com/posts/2019-02-<span class="u-hiddenVisually">15-how-to-generate-random-geocoordinates-within-given-radius&nbsp;</span>…</a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div><br></li><br><li>Explaining Code using ASCII Art – <a href="https://t.co/7lnGX3AP5v" rel="nofollow noopener" dir="ltr" data-expanded-url="https://blog.regehr.org/archives/1653" class="link customisable" target="_blank" title="https://blog.regehr.org/archives/1653" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>blog.regehr.org/archives/1653<span class="u-hiddenVisually">&nbsp;</span></a></li><br><li>Sa compagne ne répond pas au téléphone, il viole son chien: l'animal est euthanasié <a href="https://t.co/MCxN2JYAPK" rel="nofollow noopener" dir="ltr" data-expanded-url="http://www.francesoir.fr/societe-faits-divers/sa-compagne-ne-repond-pas-au-telehone-il-viole-son-chien-lanimal-est-euthanasie" class="link customisable" target="_blank" title="http://www.francesoir.fr/societe-faits-divers/sa-compagne-ne-repond-pas-au-telehone-il-viole-son-chien-lanimal-est-euthanasie" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://www.</span>francesoir.fr/societe-faits-<span class="u-hiddenVisually">divers/sa-compagne-ne-repond-pas-au-telehone-il-viole-son-chien-lanimal-est-euthanasie&nbsp;</span>…</a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary_large_image" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><li>murderer: run if you want to live<br>me: *starts sprinting*<br>murderer: not like toward me tho</li><br><li>engineer who's who</li><li>-&nbsp;<a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-14T22:56:59+0000" data-scribe="element:full_timestamp" href="https://twitter.com/memecrashes/status/1096181537203200002" contenteditable="false"><time class="dt-updated" datetime="2019-02-14T22:56:59+0000" pubdate="" title="Time posted: February 14, 2019 22:56:59 (UTC)">link</time></a></li><li>Debugging is like an onion. There are multiple layers to it, and the more you peel them back, the more likely you're going to start crying at inappropriate times.</li><li>Facebook's launching a new dating feature to match you with equally vapid, banal and insecure people.<br>[notification] You have 2.2 billion matches</li><li><br></li><li>Client: "So an SUV in front of my house just got into a head-on collision with this guy on a motorcycle and I’m pretty sure the guy is dead' - <a href="https://t.co/KNoQNnm5Qa" rel="nofollow noopener" dir="ltr" data-expanded-url="http://clientsfromhell.net/10805-2/" class="link customisable" target="_blank" title="http://clientsfromhell.net/10805-2/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>clientsfromhell.net/10805-2/<span class="u-hiddenVisually">&nbsp;</span></a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary_large_image" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><br><li>Any orange can become a blood orange if you throw it hard enough.</li><li>Don’t Get Clever with Login Forms - <a href="https://t.co/6GO3na0nnT" rel="nofollow noopener" dir="ltr" data-expanded-url="http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/" class="link customisable" target="_blank" title="http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>bradfrost.com/blog/post/dont<span class="u-hiddenVisually">-get-clever-with-login-forms/&nbsp;</span>…</a>
+
+</ul>
+
+<ul id="tweets" contenteditable="" class=""><li>Micro HTML and CSS only framework for Slides/Presentations</li><li>-&nbsp;<a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-14T14:20:06+0000" data-scribe="element:full_timestamp" href="https://twitter.com/giuseppegurgone/status/1096051462407405568" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-14T14:20:06+0000" pubdate="" title="Time posted: February 14, 2019 14:20:06 (UTC)">link<!--/a--></time></a></li><br><li>Tweetable Shadertoy Mandelbox&nbsp;- <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-15T08:27:25+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MaximeEuziere/status/1096325091254767617" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-15T08:27:25+0000" pubdate="" title="Time posted: February 15, 2019 08:27:25 (UTC)">tweet<!--/a--></time></a>&nbsp;/&nbsp;<a href="https://t.co/8iKuSJ21LF" rel="nofollow noopener" dir="ltr" data-expanded-url="https://www.shadertoy.com/view/wsjGW3" class="link customisable" target="_blank" title="https://www.shadertoy.com/view/wsjGW3" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://www.</span>shadertoy.com/view/wsjGW3<span class="u-hiddenVisually">&nbsp;</span></a></li><li>Client: "Why should I pay you that ridiculous amount when I can do it for free here?!?!" - <a href="https://t.co/WVmvkKE5KY" rel="nofollow noopener" dir="ltr" data-expanded-url="http://clientsfromhell.net/10801-2/" class="link customisable" target="_blank" title="http://clientsfromhell.net/10801-2/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>clientsfromhell.net/10801-2/<span class="u-hiddenVisually">&nbsp;</span></a></li><li>Why can’t a bot tick the 'I'm not a robot' box? -&nbsp;</li><br><li>Wal-Mart needs to catch up on their slang - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-14T00:03:58+0000" data-scribe="element:full_timestamp" href="https://twitter.com/Drillist/status/1095836008774389760" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-14T00:03:58+0000" pubdate="" title="Time posted: February 14, 2019 00:03:58 (UTC)">link<!--/a--></time></a></li><br><li>an element everyone building anything should consider:<br>Your system not breaking doesn't mean it works and is a solid design.<br>It might just mean you've gotten lucky, a lot, in a row.</li><br><li><a href="https://t.co/ppi3TNGXqD" rel="nofollow noopener" dir="ltr" data-expanded-url="https://volt.ws/" class="link customisable" target="_blank" title="https://volt.ws/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>volt.ws<span class="u-hiddenVisually">/&nbsp;</span></a></li><br><li>Is the dinosaur puking white vomit sinusoidally ? - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-13T10:19:48+0000" data-scribe="element:full_timestamp" href="https://twitter.com/MaximeEuziere/status/1095628600320118784" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-13T10:19:48+0000" pubdate="" title="Time posted: February 13, 2019 10:19:48 (UTC)">link<!--/a--></time></a></li><br><li>tfw you're idly browsing a directory of unsecured surveillance cameras from around the world and suddenly find yourself captured from another angle - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-12T23:12:41+0000" data-scribe="element:full_timestamp" href="https://twitter.com/hypotext/status/1095460714033176578" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-12T23:12:41+0000" pubdate="" title="Time posted: February 12, 2019 23:12:41 (UTC)">link<!--/a--></time></a></li><br><li>I hate this when this happens&nbsp;- <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-13T10:00:41+0000" data-scribe="element:full_timestamp" href="https://twitter.com/CodeDoesMeme/status/1095623789713543169" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-13T10:00:41+0000" pubdate="" title="Time posted: February 13, 2019 10:00:41 (UTC)">link<!--/a--></time></a></li><li><br></li><li>Fun fact: GPS uses 10 bits to store the week. That means it runs out... oh heck – April 6, 2019 - <a href="https://t.co/lBEBpOnFQ8" rel="nofollow noopener" dir="ltr" data-expanded-url="https://www.theregister.co.uk/2019/02/12/current_gps_epoch_ends/" class="link customisable" target="_blank" title="https://www.theregister.co.uk/2019/02/12/current_gps_epoch_ends/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://www.</span>theregister.co.uk/2019/02/12/cur<span class="u-hiddenVisually">rent_gps_epoch_ends/&nbsp;</span>…</a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary_large_image" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><br><li>Excellent weird geography trivia. Traveling South-Southwest from Hawaii toward Antarctica, there's a perfectly straight path which crosses the International Date Line seven times, going today-tomorrow-today-tomorrow-today-tomorrow-today-tomorrow. Source: <a href="https://t.co/hE5cKxjbg8" rel="nofollow noopener" dir="ltr" data-expanded-url="https://buff.ly/2USA0Ym" class="link customisable" target="_blank" title="https://buff.ly/2USA0Ym" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">https://</span>buff.ly/2USA0Ym<span class="u-hiddenVisually">&nbsp;</span></a>
+  
+<article class="MediaCard
+           
+           customisable-border" data-scribe="component:card" dir="ltr">
+  <div class="MediaCard-media" data-scribe="element:photo">
+
+    <div class="MediaCard-widthConstraint js-cspForcedStyle" style="max-width: 960px" data-style="max-width: 960px">
+      <div class="MediaCard-mediaContainer js-cspForcedStyle MediaCard--roundedTop MediaCard--roundedBottom" style="padding-bottom: 100.0000%" data-style="padding-bottom: 100.0000%"><br></div></div></div></article></li><li>Me: I can’t believe you would ask me to do something so sick<br>Him: you said you wanted to try new sex things<br>Me: but that’s horrific<br>Him: it was only phone sex. all you have to do is talk on the ph-<br>Me: [screaming]</li><li>Just once in my life, I’d like to experience being so angry that I sweep everything off the table with my arms.</li><br><li>STORY TIME: Dave Wolf. - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-12T16:37:13+0000" data-scribe="element:full_timestamp" href="https://twitter.com/Bouletcorp/status/1095361191034175488" contenteditable="false">
+
+
+
+
+
+
+
+
+<time class="dt-updated" datetime="2019-02-12T16:37:13+0000" pubdate="" title="Time posted: February 12, 2019 16:37:13 (UTC)">link<!--/a--></time></a></li><li><br></li><li>BTTF/Monkey Island fan game -&nbsp;</li><li> <a href="https://t.co/y7NmcdE8v3" rel="nofollow noopener" dir="ltr" data-expanded-url="http://mag.mo5.com/actu/157510/back-to-the-future-part-iii-timeline-of-monkey-island-disponible/" class="link customisable" target="_blank" title="http://mag.mo5.com/actu/157510/back-to-the-future-part-iii-timeline-of-monkey-island-disponible/" data-scribe="element:url" contenteditable="false"><span class="u-hiddenVisually">http://</span>mag.mo5.com/actu/157510/ba<span class="u-hiddenVisually">ck-to-the-future-part-iii-timeline-of-monkey-island-disponible/&nbsp;</span>…</a>
+  
+  
+  
+    
+    
+<div class="PrerenderedCard is-loaded is-constrainedByMaxWidth" data-card-name="summary_large_image" data-css="https://ton.twimg.com/tfw/css/syndication_bundle_v1_73385286cca9d2256f6bf3993470820d4827b058.css" data-scribe="component:card">
+</div></li><li><br></li><li>Client-side authentication like - <a class="u-linkBlend u-url customisable-highlight long-permalink" data-datetime="2019-02-12T07:07:32+0000" data-scribe="element:full_timestamp" href="https://twitter.com/CodeDoesMeme/status/1095217827290771462" contenteditable="false"></ul>
