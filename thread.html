@@ -1,0 +1,58 @@
+﻿<div id=out></div>
+<style>
+body { width: 900px; font: 14px arial; }
+img, video { max-width: 400px; height: auto; max-height: 400px; border: 2px solid #888; }
+a { display: inline-bloc; vertical-align: top; }
+</style>
+<script>
+xhr = new XMLHttpRequest;
+xhr.open("GET", "tweet.js", 1);
+xhr.send();
+window.YTD = { tweet: [] };
+end_id = "1314859384451850240";
+ids = [end_id];
+xhr.onload = function(){
+  eval(xhr.response);
+  while(end_id != null){
+    for(i in window.YTD.tweet.part0){
+      tweet = window.YTD.tweet.part0[i];
+      if(tweet.tweet.id == end_id){
+        if(tweet.tweet.in_reply_to_status_id){
+          end_id = tweet.tweet.in_reply_to_status_id;
+          ids.unshift(end_id);
+        }
+        else end_id = null;
+      }
+    }
+  }
+  for(j in ids){
+    for(i in window.YTD.tweet.part0){
+      tweet = window.YTD.tweet.part0[i];
+      if(tweet.tweet.id == ids[j]){
+        //console.log(tweet.tweet.full_text, tweet.tweet);
+        out.innerHTML += "<br><p>"+tweet.tweet.full_text.replace(/https?:\/\/t\.co\/........../g,'').replace(/\n/g,"<br>");
+        if(tweet.tweet.extended_entities && tweet.tweet.extended_entities.media){
+          medias = tweet.tweet.extended_entities.media;
+          for(k in medias){
+            if(medias[k].video_info){
+              //console.log(medias);
+              variants = medias[k].video_info.variants;
+              for(l in variants){
+                if(variants[l].content_type == "video/mp4"){
+                  url = variants[l].url;
+                  break;
+                }
+              }
+              
+              out.innerHTML+='<video width=600 controls src="'+url+'"></a>';
+            }
+            else {
+              out.innerHTML+='<a href="'+medias[k].media_url+'"><img width=400 src="'+medias[k].media_url+'"></a>';
+            }
+          }
+        }
+      }
+    }
+  }
+}
+</script>
