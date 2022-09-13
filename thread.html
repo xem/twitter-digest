@@ -9,11 +9,12 @@ xhr = new XMLHttpRequest;
 xhr.open("GET", "tweet.js", 1);
 xhr.send();
 window.YTD = { tweet: [] };
-end_id = "1314859384451850240";
+start_id = "1314859384451850240";
+end_id = "1513057494901444610";
 ids = [end_id];
 xhr.onload = function(){
   eval(xhr.response);
-  while(end_id != null){
+  while(end_id != null && end_id != start_id){
     for(i in window.YTD.tweet.part0){
       tweet = window.YTD.tweet.part0[i];
       if(tweet.tweet.id == end_id){
