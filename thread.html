@@ -6,17 +6,18 @@ a { display: inline-bloc; vertical-align: top; }
 </style>
 <script>
 xhr = new XMLHttpRequest;
-xhr.open("GET", "tweet.js", 1);
+xhr.open("GET", "tweets.js", 1);
 xhr.send();
-window.YTD = { tweet: [] };
+window.YTD = { tweets: [] };
 start_id = "1520658539261444097";
-end_id = "1573762559190175744";
+end_id = "1846941001308393559";
 ids = [end_id];
 xhr.onload = function(){
+  //console.log(xhr.response);
   eval(xhr.response);
   while(end_id != null && end_id != start_id){
-    for(i in window.YTD.tweet.part0){
-      tweet = window.YTD.tweet.part0[i];
+    for(i in window.YTD.tweets.part0){
+      tweet = window.YTD.tweets.part0[i];
       if(tweet.tweet.id == end_id){
         if(tweet.tweet.in_reply_to_status_id){
           end_id = tweet.tweet.in_reply_to_status_id;
@@ -27,8 +28,8 @@ xhr.onload = function(){
     }
   }
   for(j in ids){
-    for(i in window.YTD.tweet.part0){
-      tweet = window.YTD.tweet.part0[i];
+    for(i in window.YTD.tweets.part0){
+      tweet = window.YTD.tweets.part0[i];
       if(tweet.tweet.id == ids[j]){
         //console.log(tweet.tweet.full_text, tweet.tweet);
         out.innerHTML += "<br><p>"+tweet.tweet.full_text.replace(/https?:\/\/t\.co\/........../g,'').replace(/\n/g,"<br>");
